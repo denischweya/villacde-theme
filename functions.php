@@ -64,6 +64,33 @@ if ( ! function_exists( 'twentytwentyfive_enqueue_styles' ) ) :
 endif;
 add_action( 'wp_enqueue_scripts', 'twentytwentyfive_enqueue_styles' );
 
+if ( ! function_exists( 'villacde_enqueue_header_assets' ) ) :
+	/**
+	 * Enqueues the sticky-header script and its styles on the front end.
+	 *
+	 * @return void
+	 */
+	function villacde_enqueue_header_assets() {
+		$version = wp_get_theme()->get( 'Version' );
+
+		wp_enqueue_style(
+			'villacde-header',
+			get_theme_file_uri( 'assets/css/header.css' ),
+			array(),
+			$version
+		);
+
+		wp_enqueue_script(
+			'villacde-header',
+			get_theme_file_uri( 'assets/js/header.js' ),
+			array(),
+			$version,
+			true
+		);
+	}
+endif;
+add_action( 'wp_enqueue_scripts', 'villacde_enqueue_header_assets' );
+
 if ( ! function_exists( 'twentytwentyfive_block_styles' ) ) :
 	/**
 	 * Registers custom block styles.

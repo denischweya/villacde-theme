@@ -1,0 +1,28 @@
+/**
+ * Sticky header: starts transparent over the hero and gains a solid
+ * backdrop once the page has scrolled past a small threshold. The
+ * .is-scrolled class is toggled by assets/js/header.js.
+ *
+ * Ported from the static site's .site-header / .is-scrolled rules
+ * (css/styles.css) and header-scroll logic (js/main.js).
+ *
+ * Fixed, not relative, so it stays docked through the whole page
+ * instead of scrolling away with the hero, and so it overlays the
+ * hero image/content instead of pushing it down.
+ */
+.site-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 60;
+	background: transparent;
+	transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.site-header.is-scrolled {
+	background-color: rgba(14, 23, 38, 0.92);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+}
