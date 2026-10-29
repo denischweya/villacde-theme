@@ -6,8 +6,8 @@
  */
 
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url( wp_get_attachment_image_url( 24, 'full' ) ); ?>","id":24,"alt":"Villa CDE, aerial view of the villa and private pool, Naivasha","dimRatio":60,"overlayColor":"night","minHeight":700,"minHeightUnit":"px","contentPosition":"center left","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull has-custom-content-position is-position-center-left" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50);min-height:700px">
+<!-- wp:cover {"anchor":"top","url":"<?php echo esc_url( wp_get_attachment_image_url( 24, 'full' ) ); ?>","id":24,"alt":"Villa CDE, aerial view of the villa and private pool, Naivasha","dimRatio":60,"overlayColor":"night","minHeight":700,"minHeightUnit":"px","contentPosition":"center left","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div id="top" class="wp-block-cover alignfull has-custom-content-position is-position-center-left" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50);min-height:700px">
 	<span aria-hidden="true" class="wp-block-cover__background has-night-background-color has-background-dim-60 has-background-dim"></span>
 	<img class="wp-block-cover__image-background" alt="Villa CDE, aerial view of the villa and private pool, Naivasha" src="<?php echo esc_url( wp_get_attachment_image_url( 24, 'full' ) ); ?>" data-object-fit="cover"/>
 	<div class="wp-block-cover__inner-container">
