@@ -1,59 +1,62 @@
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|40"}}},"backgroundColor":"night","textColor":"fog","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-fog-color has-night-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--40)">
+<!-- wp:group {"className":"site-footer","backgroundColor":"night","textColor":"fog","layout":{"type":"default"}} -->
+<div class="wp-block-group site-footer has-fog-color has-night-background-color has-text-color has-background">
 
-	<!-- wp:group {"align":"wide","style":{"border":{"bottom":{"color":"var:preset|color|night-2","width":"1px"}},"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
-	<div class="wp-block-group alignwide" style="border-bottom-color:var(--wp--preset--color--night-2);border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--60)">
+	<!-- wp:group {"className":"v-container footer-inner","layout":{"type":"default"}} -->
+	<div class="wp-block-group v-container footer-inner">
 
-		<!-- wp:heading {"level":2,"textColor":"mist","fontFamily":"bricolage-grotesque","style":{"typography":{"fontSize":"clamp(36px, 5vw, 64px)","lineHeight":"1","letterSpacing":"-0.035em"}}} -->
-		<h2 class="wp-block-heading has-mist-color has-text-color has-bricolage-grotesque-font-family" style="font-size:clamp(36px, 5vw, 64px);letter-spacing:-0.035em;line-height:1">Your Escape. Your Space.</h2>
-		<!-- /wp:heading -->
+		<!-- wp:group {"className":"footer-top","layout":{"type":"default"}} -->
+		<div class="wp-block-group footer-top">
 
-		<!-- wp:buttons -->
-		<div class="wp-block-buttons">
-			<!-- wp:button {"backgroundColor":"amber","textColor":"night","style":{"border":{"radius":"6px"}}} -->
-			<div class="wp-block-button"><a class="wp-block-button__link has-night-color has-amber-background-color has-text-color has-background wp-element-button" href="#book" style="border-radius:6px">Check availability</a></div>
-			<!-- /wp:button -->
-		</div>
-		<!-- /wp:buttons -->
-
-	</div>
-	<!-- /wp:group -->
-
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
-	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50)">
-
-		<!-- wp:html -->
-		<span style="display:inline-flex;align-items:center;gap:10px;color:var(--wp--preset--color--mist);font-family:var(--wp--preset--font-family--bricolage-grotesque);font-weight:700;font-size:20px">
-			<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--wp--preset--color--amber)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v11"></path><path d="M12 8l-2.2-3.6"></path><path d="M12 8l2.2-3.6"></path><path d="M12 10.5C10.5 5.5 4.5 3 2.8 5.2c-1.6 2.1.3 6.6 9.2 6.6"></path><path d="M12 10.5c1.5-5 7.5-7.5 9.2-5.3 1.6 2.1-.3 6.6-9.2 6.6"></path><path d="M12 12.5c-4.6.2-7.4 2.6-6.1 5.3 1.2 2.4 4.6 1.4 6.1-1.8"></path><path d="M12 12.5c4.6.2 7.4 2.6 6.1 5.3-1.2 2.4-4.6 1.4-6.1-1.8"></path></svg>
-			Villa CDE
-		</span>
-		<!-- /wp:html -->
-
-		<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
-		<div class="wp-block-group">
-
-			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-medium-font-size"><a href="tel:+254725321433">+254 725 321433</a></p>
+			<!-- wp:paragraph {"className":"footer-tagline"} -->
+			<p class="footer-tagline">Your Escape. Your Space.</p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-medium-font-size"><a href="tel:+254719544188">+254 719 544188</a></p>
-			<!-- /wp:paragraph -->
-
-			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-medium-font-size"><a href="mailto:villacdenvs@gmail.com">villacdenvs@gmail.com</a></p>
-			<!-- /wp:paragraph -->
-
-			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-medium-font-size"><a href="https://www.instagram.com/villacde.ke/" target="_blank" rel="noopener">Instagram @villacde.ke</a></p>
-			<!-- /wp:paragraph -->
+			<!-- wp:buttons -->
+			<div class="wp-block-buttons">
+				<!-- wp:button {"className":"btn-amber"} -->
+				<div class="wp-block-button btn-amber"><a class="wp-block-button__link wp-element-button" href="#book">Check availability</a></div>
+				<!-- /wp:button -->
+			</div>
+			<!-- /wp:buttons -->
 
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:paragraph {"fontSize":"small","textColor":"fog-dim"} -->
-		<p class="has-fog-dim-color has-text-color has-small-font-size">© 2026 Villa CDE · Moi South Lake Road, Naivasha, Kenya</p>
-		<!-- /wp:paragraph -->
+		<!-- wp:group {"className":"footer-bottom","layout":{"type":"default"}} -->
+		<div class="wp-block-group footer-bottom">
+
+			<!-- wp:html -->
+			<span class="footer-brand"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F2A65A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v11"></path><path d="M12 8l-2.2-3.6"></path><path d="M12 8l2.2-3.6"></path><path d="M12 10.5C10.5 5.5 4.5 3 2.8 5.2c-1.6 2.1.3 6.6 9.2 6.6"></path><path d="M12 10.5c1.5-5 7.5-7.5 9.2-5.3 1.6 2.1-.3 6.6-9.2 6.6"></path><path d="M12 12.5c-4.6.2-7.4 2.6-6.1 5.3 1.2 2.4 4.6 1.4 6.1-1.8"></path><path d="M12 12.5c4.6.2 7.4 2.6 6.1 5.3-1.2 2.4-4.6 1.4-6.1-1.8"></path></svg>Villa CDE</span>
+			<!-- /wp:html -->
+
+			<!-- wp:group {"className":"footer-links","layout":{"type":"default"}} -->
+			<div class="wp-block-group footer-links">
+
+				<!-- wp:paragraph -->
+				<p><a href="tel:+254725321433">+254 725 321433</a></p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:paragraph -->
+				<p><a href="tel:+254719544188">+254 719 544188</a></p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:paragraph -->
+				<p><a href="mailto:villacdenvs@gmail.com">villacdenvs@gmail.com</a></p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:paragraph -->
+				<p><a href="https://www.instagram.com/villacde.ke/" target="_blank" rel="noreferrer noopener">Instagram @villacde.ke</a></p>
+				<!-- /wp:paragraph -->
+
+			</div>
+			<!-- /wp:group -->
+
+			<!-- wp:paragraph {"className":"footer-copy"} -->
+			<p class="footer-copy">© 2026 Villa CDE · Moi South Lake Road, Naivasha, Kenya</p>
+			<!-- /wp:paragraph -->
+
+		</div>
+		<!-- /wp:group -->
 
 	</div>
 	<!-- /wp:group -->

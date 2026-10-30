@@ -32,7 +32,7 @@ if ( ! function_exists( 'twentytwentyfive_editor_style' ) ) :
 	 * @return void
 	 */
 	function twentytwentyfive_editor_style() {
-		add_editor_style( 'assets/css/editor-style.css' );
+		add_editor_style( array( 'assets/css/villacde.css', 'assets/css/editor-style.css' ) );
 	}
 endif;
 add_action( 'after_setup_theme', 'twentytwentyfive_editor_style' );
@@ -64,50 +64,37 @@ if ( ! function_exists( 'twentytwentyfive_enqueue_styles' ) ) :
 endif;
 add_action( 'wp_enqueue_scripts', 'twentytwentyfive_enqueue_styles' );
 
-if ( ! function_exists( 'villacde_enqueue_header_assets' ) ) :
+if ( ! function_exists( 'villacde_enqueue_assets' ) ) :
 	/**
-	 * Enqueues the sticky-header script and its styles on the front end.
+	 * Enqueues the theme's own stylesheet and script on the front end.
+	 *
+	 * assets/css/villacde.css is a 1:1 port of the static site's styles
+	 * (section layout, header, rooms, gallery, footer, lightbox, responsive
+	 * overrides); assets/js/villacde.js ports its behaviour (sticky header,
+	 * mobile nav, lightbox).
 	 *
 	 * @return void
 	 */
-	function villacde_enqueue_header_assets() {
+	function villacde_enqueue_assets() {
 		$version = wp_get_theme()->get( 'Version' );
 
 		wp_enqueue_style(
-			'villacde-header',
-			get_theme_file_uri( 'assets/css/header.css' ),
-			array(),
+			'villacde',
+			get_theme_file_uri( 'assets/css/villacde.css' ),
+			array( 'twentytwentyfive-style' ),
 			$version
 		);
 
 		wp_enqueue_script(
-			'villacde-header',
-			get_theme_file_uri( 'assets/js/header.js' ),
+			'villacde',
+			get_theme_file_uri( 'assets/js/villacde.js' ),
 			array(),
 			$version,
 			true
 		);
 	}
 endif;
-add_action( 'wp_enqueue_scripts', 'villacde_enqueue_header_assets' );
-
-if ( ! function_exists( 'villacde_enqueue_pattern_assets' ) ) :
-	/**
-	 * Enqueues layout CSS used by villacde/* patterns (e.g. the gallery
-	 * grid) that can't be expressed through core block attributes alone.
-	 *
-	 * @return void
-	 */
-	function villacde_enqueue_pattern_assets() {
-		wp_enqueue_style(
-			'villacde-patterns',
-			get_theme_file_uri( 'assets/css/patterns.css' ),
-			array(),
-			wp_get_theme()->get( 'Version' )
-		);
-	}
-endif;
-add_action( 'wp_enqueue_scripts', 'villacde_enqueue_pattern_assets' );
+add_action( 'wp_enqueue_scripts', 'villacde_enqueue_assets' );
 
 if ( ! function_exists( 'twentytwentyfive_block_styles' ) ) :
 	/**

@@ -1,41 +1,26 @@
-<!-- wp:group {"align":"full","className":"site-header","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"backgroundColor":"night","textColor":"mist","layout":{"type":"constrained"}} -->
-<div class="wp-block-group site-header alignfull has-mist-color has-night-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
+<!-- wp:group {"className":"site-header","backgroundColor":"night","layout":{"type":"default"}} -->
+<div class="wp-block-group site-header has-night-background-color has-background">
 
-	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
-	<div class="wp-block-group alignwide">
+	<!-- wp:group {"className":"nav-main","layout":{"type":"default"}} -->
+	<div class="wp-block-group nav-main">
 
 		<!-- wp:html -->
-		<a href="#top" aria-label="Villa CDE home" style="display:inline-flex;align-items:center;gap:10px;color:var(--wp--preset--color--mist);text-decoration:none;font-family:var(--wp--preset--font-family--bricolage-grotesque);font-weight:700;font-size:22px;letter-spacing:0.02em">
-			<svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--wp--preset--color--amber)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v11"></path><path d="M12 8l-2.2-3.6"></path><path d="M12 8l2.2-3.6"></path><path d="M12 10.5C10.5 5.5 4.5 3 2.8 5.2c-1.6 2.1.3 6.6 9.2 6.6"></path><path d="M12 10.5c1.5-5 7.5-7.5 9.2-5.3 1.6 2.1-.3 6.6-9.2 6.6"></path><path d="M12 12.5c-4.6.2-7.4 2.6-6.1 5.3 1.2 2.4 4.6 1.4 6.1-1.8"></path><path d="M12 12.5c4.6.2 7.4 2.6 6.1 5.3-1.2 2.4-4.6 1.4-6.1-1.8"></path></svg>
-			Villa CDE
-		</a>
+		<a href="#top" class="nav-logo" aria-label="Villa CDE home"><svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#F2A65A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v11"></path><path d="M12 8l-2.2-3.6"></path><path d="M12 8l2.2-3.6"></path><path d="M12 10.5C10.5 5.5 4.5 3 2.8 5.2c-1.6 2.1.3 6.6 9.2 6.6"></path><path d="M12 10.5c1.5-5 7.5-7.5 9.2-5.3 1.6 2.1-.3 6.6-9.2 6.6"></path><path d="M12 12.5c-4.6.2-7.4 2.6-6.1 5.3 1.2 2.4 4.6 1.4 6.1-1.8"></path><path d="M12 12.5c4.6.2 7.4 2.6 6.1 5.3-1.2 2.4-4.6 1.4-6.1-1.8"></path></svg>Villa CDE</a>
 		<!-- /wp:html -->
 
-		<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"right","verticalAlignment":"center"}} -->
-		<div class="wp-block-group">
+		<!-- wp:navigation {"overlayMenu":"never","className":"nav-links","ariaLabel":"Main","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"right"},"style":{"spacing":{"blockGap":{"top":"4px","left":"28px"}}}} -->
+			<!-- wp:navigation-link {"label":"The escape","url":"#escape","kind":"custom"} /-->
 
-			<!-- wp:navigation {"textColor":"mist","overlayBackgroundColor":"night","overlayTextColor":"mist","layout":{"type":"flex","justifyContent":"right","flexWrap":"wrap"}} -->
-				<!-- wp:navigation-link {"label":"The escape","url":"#escape"} /-->
+			<!-- wp:navigation-link {"label":"Rooms","url":"#rooms","kind":"custom"} /-->
 
-				<!-- wp:navigation-link {"label":"Rooms","url":"#rooms"} /-->
+			<!-- wp:navigation-link {"label":"Amenities","url":"#amenities","kind":"custom"} /-->
 
-				<!-- wp:navigation-link {"label":"Amenities","url":"#amenities"} /-->
+			<!-- wp:navigation-link {"label":"Gallery","url":"#gallery","kind":"custom"} /-->
 
-				<!-- wp:navigation-link {"label":"Gallery","url":"#gallery"} /-->
+			<!-- wp:navigation-link {"label":"Location","url":"#location","kind":"custom"} /-->
 
-				<!-- wp:navigation-link {"label":"Location","url":"#location"} /-->
-			<!-- /wp:navigation -->
-
-			<!-- wp:buttons -->
-			<div class="wp-block-buttons">
-				<!-- wp:button {"backgroundColor":"amber","textColor":"night","style":{"border":{"radius":"6px"}}} -->
-				<div class="wp-block-button"><a class="wp-block-button__link has-night-color has-amber-background-color has-text-color has-background wp-element-button" href="#book" style="border-radius:6px">Book now</a></div>
-				<!-- /wp:button -->
-			</div>
-			<!-- /wp:buttons -->
-
-		</div>
-		<!-- /wp:group -->
+			<!-- wp:navigation-link {"label":"Book now","url":"#book","kind":"custom","className":"nav-cta"} /-->
+		<!-- /wp:navigation -->
 
 	</div>
 	<!-- /wp:group -->

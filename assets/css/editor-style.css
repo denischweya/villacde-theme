@@ -6,3 +6,11 @@ a {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: .1em;
 }
+
+/*
+ * Site Editor canvas overrides for assets/css/villacde.css. The header
+ * can't be fixed inside the canvas, and its "night" background attribute
+ * is what keeps the white logo and nav readable there.
+ */
+.site-header { position: relative; }
+.site-header.has-background { background-color: var(--wp--preset--color--night) !important; }
