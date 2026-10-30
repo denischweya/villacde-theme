@@ -36,13 +36,9 @@ $villacde_hero_tour_url         = esc_url( $villacde_hero_attrs['tourVideoUrl'] 
 		<!-- wp:column {"style":{"border":{"right":{"color":"var:preset|color|fog","width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 		<div class="wp-block-column" style="border-right-color:var(--wp--preset--color--fog);border-right-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 
-			<!-- wp:paragraph {"align":"center","fontFamily":"bricolage-grotesque","style":{"typography":{"fontSize":"46px","fontWeight":"600","lineHeight":"1","letterSpacing":"-0.03em"}}} -->
-			<p class="has-text-align-center has-bricolage-grotesque-font-family" style="font-size:46px;font-weight:600;letter-spacing:-0.03em;line-height:1">6</p>
-			<!-- /wp:paragraph -->
-
-			<!-- wp:paragraph {"align":"center","textColor":"slate","fontSize":"small","style":{"spacing":{"margin":{"top":"8px"}}}} -->
-			<p class="has-text-align-center has-slate-color has-text-color has-small-font-size" style="margin-top:8px">En-suite bedrooms</p>
-			<!-- /wp:paragraph -->
+			<!-- wp:villacde-core/stat-counter {"targetNumber":6,"label":"En-suite bedrooms"} -->
+			<div class="wp-block-villacde-core-stat-counter villacde-stat-counter"><div class="villacde-stat-counter__number"><span data-count="6">6</span></div><div class="villacde-stat-counter__label">En-suite bedrooms</div></div>
+			<!-- /wp:villacde-core/stat-counter -->
 
 		</div>
 		<!-- /wp:column -->
@@ -50,13 +46,9 @@ $villacde_hero_tour_url         = esc_url( $villacde_hero_attrs['tourVideoUrl'] 
 		<!-- wp:column {"style":{"border":{"right":{"color":"var:preset|color|fog","width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 		<div class="wp-block-column" style="border-right-color:var(--wp--preset--color--fog);border-right-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 
-			<!-- wp:paragraph {"align":"center","fontFamily":"bricolage-grotesque","style":{"typography":{"fontSize":"46px","fontWeight":"600","lineHeight":"1","letterSpacing":"-0.03em"}}} -->
-			<p class="has-text-align-center has-bricolage-grotesque-font-family" style="font-size:46px;font-weight:600;letter-spacing:-0.03em;line-height:1">12</p>
-			<!-- /wp:paragraph -->
-
-			<!-- wp:paragraph {"align":"center","textColor":"slate","fontSize":"small","style":{"spacing":{"margin":{"top":"8px"}}}} -->
-			<p class="has-text-align-center has-slate-color has-text-color has-small-font-size" style="margin-top:8px">Max guests</p>
-			<!-- /wp:paragraph -->
+			<!-- wp:villacde-core/stat-counter {"targetNumber":12,"label":"Max guests"} -->
+			<div class="wp-block-villacde-core-stat-counter villacde-stat-counter"><div class="villacde-stat-counter__number"><span data-count="12">12</span></div><div class="villacde-stat-counter__label">Max guests</div></div>
+			<!-- /wp:villacde-core/stat-counter -->
 
 		</div>
 		<!-- /wp:column -->
@@ -64,13 +56,9 @@ $villacde_hero_tour_url         = esc_url( $villacde_hero_attrs['tourVideoUrl'] 
 		<!-- wp:column {"style":{"border":{"right":{"color":"var:preset|color|fog","width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 		<div class="wp-block-column" style="border-right-color:var(--wp--preset--color--fog);border-right-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 
-			<!-- wp:paragraph {"align":"center","fontFamily":"bricolage-grotesque","style":{"typography":{"fontSize":"46px","fontWeight":"600","lineHeight":"1","letterSpacing":"-0.03em"}}} -->
-			<p class="has-text-align-center has-bricolage-grotesque-font-family" style="font-size:46px;font-weight:600;letter-spacing:-0.03em;line-height:1">24/7</p>
-			<!-- /wp:paragraph -->
-
-			<!-- wp:paragraph {"align":"center","textColor":"slate","fontSize":"small","style":{"spacing":{"margin":{"top":"8px"}}}} -->
-			<p class="has-text-align-center has-slate-color has-text-color has-small-font-size" style="margin-top:8px">Security</p>
-			<!-- /wp:paragraph -->
+			<!-- wp:villacde-core/stat-counter {"targetNumber":24,"suffix":"/7","label":"Security"} -->
+			<div class="wp-block-villacde-core-stat-counter villacde-stat-counter"><div class="villacde-stat-counter__number"><span data-count="24" data-suffix="/7">24/7</span></div><div class="villacde-stat-counter__label">Security</div></div>
+			<!-- /wp:villacde-core/stat-counter -->
 
 		</div>
 		<!-- /wp:column -->
@@ -78,13 +66,9 @@ $villacde_hero_tour_url         = esc_url( $villacde_hero_attrs['tourVideoUrl'] 
 		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 		<div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 
-			<!-- wp:paragraph {"align":"center","fontFamily":"bricolage-grotesque","style":{"typography":{"fontSize":"46px","fontWeight":"600","lineHeight":"1","letterSpacing":"-0.03em"}}} -->
-			<p class="has-text-align-center has-bricolage-grotesque-font-family" style="font-size:46px;font-weight:600;letter-spacing:-0.03em;line-height:1">1</p>
-			<!-- /wp:paragraph -->
-
-			<!-- wp:paragraph {"align":"center","textColor":"slate","fontSize":"small","style":{"spacing":{"margin":{"top":"8px"}}}} -->
-			<p class="has-text-align-center has-slate-color has-text-color has-small-font-size" style="margin-top:8px">Swimming pool</p>
-			<!-- /wp:paragraph -->
+			<!-- wp:villacde-core/stat-counter {"targetNumber":1,"label":"Swimming pool"} -->
+			<div class="wp-block-villacde-core-stat-counter villacde-stat-counter"><div class="villacde-stat-counter__number"><span data-count="1">1</span></div><div class="villacde-stat-counter__label">Swimming pool</div></div>
+			<!-- /wp:villacde-core/stat-counter -->
 
 		</div>
 		<!-- /wp:column -->
