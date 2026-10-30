@@ -37,7 +37,7 @@
 	</div>
 	<!-- /wp:columns -->
 
-	<!-- wp:group {"align":"wide","className":"villacde-gallery-grid"} -->
+	<!-- wp:group {"align":"wide","className":"villacde-gallery-grid","style":{"spacing":{"blockGap":"0"}}} -->
 	<div class="wp-block-group alignwide villacde-gallery-grid">
 
 		<!-- wp:image {"id":22,"sizeSlug":"full","className":"villacde-gallery-item is-span-2","style":{"border":{"radius":"12px"}},"lightbox":{"enabled":true}} -->
