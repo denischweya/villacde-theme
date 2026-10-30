@@ -162,6 +162,13 @@ if ( ! function_exists( 'twentytwentyfive_pattern_categories' ) ) :
 				'description' => __( 'A collection of post format patterns.', 'twentytwentyfive' ),
 			)
 		);
+
+		register_block_pattern_category(
+			'villacde',
+			array(
+				'label' => __( 'Villa CDE', 'villacde' ),
+			)
+		);
 	}
 endif;
 add_action( 'init', 'twentytwentyfive_pattern_categories' );
