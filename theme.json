@@ -42,6 +42,11 @@
 					"slug": "fog",
 					"color": "#C3CCD6",
 					"name": "Fog"
+				},
+				{
+					"slug": "fog-dim",
+					"color": "#8D99A8",
+					"name": "Fog Dim"
 				}
 			]
 		},
