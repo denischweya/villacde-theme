@@ -8,8 +8,8 @@
 ?>
 <!-- wp:cover {"anchor":"book","url":"<?php echo esc_url( wp_get_attachment_image_url( 29, 'full' ) ); ?>","id":29,"alt":"","dimRatio":70,"overlayColor":"night","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"var:preset|spacing|80","bottom":"0"}}},"layout":{"type":"constrained"}} -->
 <div id="book" class="wp-block-cover alignfull" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+	<img class="wp-block-cover__image-background wp-image-29" alt="" src="<?php echo esc_url( wp_get_attachment_image_url( 29, 'full' ) ); ?>" data-object-fit="cover"/>
 	<span aria-hidden="true" class="wp-block-cover__background has-night-background-color has-background-dim-70 has-background-dim"></span>
-	<img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( wp_get_attachment_image_url( 29, 'full' ) ); ?>" data-object-fit="cover"/>
 	<div class="wp-block-cover__inner-container">
 
 		<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"48px","left":"80px"}}}} -->

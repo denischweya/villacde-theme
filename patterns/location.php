@@ -49,7 +49,7 @@
 		<!-- wp:column {"width":"60%"} -->
 		<div class="wp-block-column" style="flex-basis:60%">
 			<!-- wp:image {"id":28,"sizeSlug":"full","linkDestination":"custom","aspectRatio":"4/3","scale":"cover","style":{"border":{"radius":"16px"}}} -->
-			<figure class="wp-block-image size-full"><a href="https://maps.app.goo.gl/PCNRas7ni31dfGcJ6" target="_blank" rel="noreferrer noopener"><img src="<?php echo esc_url( wp_get_attachment_image_url( 28, 'full' ) ); ?>" alt="Map showing Villa CDE's location on Moi South Lake Road near Lake Naivasha and Hell's Gate National Park" class="wp-image-28" style="border-radius:16px;aspect-ratio:4/3;object-fit:cover"/></a></figure>
+			<figure class="wp-block-image size-full has-custom-border"><a href="https://maps.app.goo.gl/PCNRas7ni31dfGcJ6" target="_blank" rel="noreferrer noopener"><img src="<?php echo esc_url( wp_get_attachment_image_url( 28, 'full' ) ); ?>" alt="Map showing Villa CDE's location on Moi South Lake Road near Lake Naivasha and Hell's Gate National Park" class="wp-image-28" style="border-radius:16px;aspect-ratio:4/3;object-fit:cover"/></a></figure>
 			<!-- /wp:image -->
 		</div>
 		<!-- /wp:column -->

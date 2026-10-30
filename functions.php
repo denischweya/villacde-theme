@@ -91,6 +91,24 @@ if ( ! function_exists( 'villacde_enqueue_header_assets' ) ) :
 endif;
 add_action( 'wp_enqueue_scripts', 'villacde_enqueue_header_assets' );
 
+if ( ! function_exists( 'villacde_enqueue_pattern_assets' ) ) :
+	/**
+	 * Enqueues layout CSS used by villacde/* patterns (e.g. the gallery
+	 * grid) that can't be expressed through core block attributes alone.
+	 *
+	 * @return void
+	 */
+	function villacde_enqueue_pattern_assets() {
+		wp_enqueue_style(
+			'villacde-patterns',
+			get_theme_file_uri( 'assets/css/patterns.css' ),
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+	}
+endif;
+add_action( 'wp_enqueue_scripts', 'villacde_enqueue_pattern_assets' );
+
 if ( ! function_exists( 'twentytwentyfive_block_styles' ) ) :
 	/**
 	 * Registers custom block styles.

@@ -53,7 +53,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:image {"id":10,"sizeSlug":"full","aspectRatio":"1","scale":"cover","style":{"border":{"radius":"14px"}}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 10, 'full' ) ); ?>" alt="Aerial view of Villa CDE with its pool and lawns" class="wp-image-10" style="border-radius:14px;aspect-ratio:1;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 10, 'full' ) ); ?>" alt="Aerial view of Villa CDE with its pool and lawns" class="wp-image-10" style="border-radius:14px;aspect-ratio:1;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 		</div>
 		<!-- /wp:column -->
@@ -62,11 +62,11 @@
 		<div class="wp-block-column">
 
 			<!-- wp:image {"id":34,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"14px"}}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 34, 'full' ) ); ?>" alt="Rooftop terrace with lounge seating" class="wp-image-34" style="border-radius:14px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 34, 'full' ) ); ?>" alt="Rooftop terrace with lounge seating" class="wp-image-34" style="border-radius:14px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 
 			<!-- wp:image {"id":20,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"14px"}}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 20, 'full' ) ); ?>" alt="Teak outdoor dining table" class="wp-image-20" style="border-radius:14px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 20, 'full' ) ); ?>" alt="Teak outdoor dining table" class="wp-image-20" style="border-radius:14px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 
 		</div>

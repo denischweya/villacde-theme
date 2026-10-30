@@ -43,7 +43,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}}} -->
 		<div class="wp-block-group">
 			<!-- wp:image {"id":16,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"10px"}},"lightbox":{"enabled":true}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 16, 'full' ) ); ?>" alt="Bedroom with a timber double bed and a green throw" class="wp-image-16" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 16, 'full' ) ); ?>" alt="Bedroom with a timber double bed and a green throw" class="wp-image-16" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"textColor":"amber-ink","fontSize":"small","style":{"typography":{"fontWeight":"700"},"spacing":{"margin":{"top":"16px"}}}} -->
 			<p class="has-amber-ink-color has-text-color has-small-font-size" style="margin-top:16px;font-weight:700">01</p>
@@ -60,7 +60,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}}} -->
 		<div class="wp-block-group">
 			<!-- wp:image {"id":15,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"10px"}},"lightbox":{"enabled":true}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 15, 'full' ) ); ?>" alt="Bedroom with warm wall lights and a timber double bed" class="wp-image-15" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 15, 'full' ) ); ?>" alt="Bedroom with warm wall lights and a timber double bed" class="wp-image-15" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"textColor":"amber-ink","fontSize":"small","style":{"typography":{"fontWeight":"700"},"spacing":{"margin":{"top":"16px"}}}} -->
 			<p class="has-amber-ink-color has-text-color has-small-font-size" style="margin-top:16px;font-weight:700">02</p>
@@ -77,7 +77,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}}} -->
 		<div class="wp-block-group">
 			<!-- wp:image {"id":14,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"10px"}},"lightbox":{"enabled":true}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 14, 'full' ) ); ?>" alt="Bedroom with a navy bed, shelving and a desk" class="wp-image-14" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 14, 'full' ) ); ?>" alt="Bedroom with a navy bed, shelving and a desk" class="wp-image-14" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"textColor":"amber-ink","fontSize":"small","style":{"typography":{"fontWeight":"700"},"spacing":{"margin":{"top":"16px"}}}} -->
 			<p class="has-amber-ink-color has-text-color has-small-font-size" style="margin-top:16px;font-weight:700">03</p>
@@ -94,7 +94,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}}} -->
 		<div class="wp-block-group">
 			<!-- wp:image {"id":17,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"10px"}},"lightbox":{"enabled":true}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 17, 'full' ) ); ?>" alt="Bedroom with a carved timber headboard and a red bedspread" class="wp-image-17" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 17, 'full' ) ); ?>" alt="Bedroom with a carved timber headboard and a red bedspread" class="wp-image-17" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"textColor":"amber-ink","fontSize":"small","style":{"typography":{"fontWeight":"700"},"spacing":{"margin":{"top":"16px"}}}} -->
 			<p class="has-amber-ink-color has-text-color has-small-font-size" style="margin-top:16px;font-weight:700">04</p>
@@ -111,7 +111,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}}} -->
 		<div class="wp-block-group">
 			<!-- wp:image {"id":18,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"10px"}},"lightbox":{"enabled":true}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 18, 'full' ) ); ?>" alt="Bedroom with a dark timber headboard and bedside lamps" class="wp-image-18" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 18, 'full' ) ); ?>" alt="Bedroom with a dark timber headboard and bedside lamps" class="wp-image-18" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"textColor":"amber-ink","fontSize":"small","style":{"typography":{"fontWeight":"700"},"spacing":{"margin":{"top":"16px"}}}} -->
 			<p class="has-amber-ink-color has-text-color has-small-font-size" style="margin-top:16px;font-weight:700">05</p>
@@ -128,7 +128,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}}} -->
 		<div class="wp-block-group">
 			<!-- wp:image {"id":37,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"10px"}},"lightbox":{"enabled":true}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 37, 'full' ) ); ?>" alt="Bedroom with two single beds and warm bedside lighting" class="wp-image-37" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 37, 'full' ) ); ?>" alt="Bedroom with two single beds and warm bedside lighting" class="wp-image-37" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"textColor":"amber-ink","fontSize":"small","style":{"typography":{"fontWeight":"700"},"spacing":{"margin":{"top":"16px"}}}} -->
 			<p class="has-amber-ink-color has-text-color has-small-font-size" style="margin-top:16px;font-weight:700">06</p>
@@ -151,7 +151,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}}} -->
 		<div class="wp-block-group">
 			<!-- wp:image {"id":13,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"10px"}},"lightbox":{"enabled":true}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 13, 'full' ) ); ?>" alt="En-suite bathrooms" class="wp-image-13" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 13, 'full' ) ); ?>" alt="En-suite bathrooms" class="wp-image-13" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"fontFamily":"bricolage-grotesque","style":{"typography":{"fontSize":"18px","fontWeight":"600"},"spacing":{"margin":{"top":"12px"}}}} -->
 			<p class="has-bricolage-grotesque-font-family" style="margin-top:12px;font-size:18px;font-weight:600">En-suite bathrooms</p>
@@ -165,7 +165,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}}} -->
 		<div class="wp-block-group">
 			<!-- wp:image {"id":35,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"10px"}},"lightbox":{"enabled":true}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 35, 'full' ) ); ?>" alt="Walk-in rain showers" class="wp-image-35" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 35, 'full' ) ); ?>" alt="Walk-in rain showers" class="wp-image-35" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"fontFamily":"bricolage-grotesque","style":{"typography":{"fontSize":"18px","fontWeight":"600"},"spacing":{"margin":{"top":"12px"}}}} -->
 			<p class="has-bricolage-grotesque-font-family" style="margin-top:12px;font-size:18px;font-weight:600">Walk-in rain showers</p>
@@ -179,7 +179,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}}} -->
 		<div class="wp-block-group">
 			<!-- wp:image {"id":36,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"10px"}},"lightbox":{"enabled":true}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 36, 'full' ) ); ?>" alt="Hotel-style linen" class="wp-image-36" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 36, 'full' ) ); ?>" alt="Hotel-style linen" class="wp-image-36" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"fontFamily":"bricolage-grotesque","style":{"typography":{"fontSize":"18px","fontWeight":"600"},"spacing":{"margin":{"top":"12px"}}}} -->
 			<p class="has-bricolage-grotesque-font-family" style="margin-top:12px;font-size:18px;font-weight:600">Hotel-style linen</p>
@@ -193,7 +193,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}}} -->
 		<div class="wp-block-group">
 			<!-- wp:image {"id":38,"sizeSlug":"full","aspectRatio":"16/9","scale":"cover","style":{"border":{"radius":"10px"}},"lightbox":{"enabled":true}} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( wp_get_attachment_image_url( 38, 'full' ) ); ?>" alt="Fitted wardrobes" class="wp-image-38" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( wp_get_attachment_image_url( 38, 'full' ) ); ?>" alt="Fitted wardrobes" class="wp-image-38" style="border-radius:10px;aspect-ratio:16/9;object-fit:cover"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"fontFamily":"bricolage-grotesque","style":{"typography":{"fontSize":"18px","fontWeight":"600"},"spacing":{"margin":{"top":"12px"}}}} -->
 			<p class="has-bricolage-grotesque-font-family" style="margin-top:12px;font-size:18px;font-weight:600">Fitted wardrobes</p>
