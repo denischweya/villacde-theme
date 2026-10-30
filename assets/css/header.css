@@ -46,3 +46,16 @@
 	backdrop-filter: blur(10px);
 	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
 }
+
+/*
+ * .site-header is fixed (see above), so it's a zero-height first flow
+ * child of .wp-site-blocks. That makes whatever comes after it (the hero)
+ * the *second* flow child, so theme.json's blockGap (1.2rem) applies
+ * between them as margin-top on the hero - a mist-colored gap above a
+ * hero whose dark scrim the mist-colored header logo/nav depend on for
+ * contrast. Zero that margin so the hero starts flush at the top of the
+ * page, right under the fixed header.
+ */
+.wp-site-blocks > header.wp-block-template-part + * {
+	margin-block-start: 0;
+}
