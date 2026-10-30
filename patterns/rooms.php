@@ -29,7 +29,7 @@
 		<!-- wp:column {"width":"40%","verticalAlignment":"bottom"} -->
 		<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:40%">
 			<!-- wp:paragraph {"textColor":"slate","style":{"typography":{"fontSize":"15px"}}} -->
-			<p class="has-slate-color has-text-color" style="font-size:15px;max-width:46ch">Every bedroom has its own bathroom with a walk-in rain shower, hotel-style linen, warm timber furniture and Kenyan art. Sleeps fourteen in total.</p>
+			<p class="has-slate-color has-text-color" style="font-size:15px;max-width:46ch">Every bedroom has its own bathroom with a walk-in rain shower, hotel-style linen, warm timber furniture and Kenyan art. Sleeps twelve in total.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
