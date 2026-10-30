@@ -1,53 +1,41 @@
-=== Twenty Twenty-Five ===
-Contributors: wordpressdotorg
+=== Villa CDE ===
+Contributors: villacde
 Requires at least: 6.7
-Tested up to: 7.1
+Tested up to: 6.7
 Requires PHP: 7.2
-Stable tag: 1.5
+Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
+Villa CDE is a standalone full-site-editing WordPress theme built for Villa
+CDE, a private six-bedroom villa overlooking Lake Naivasha, Kenya
+(villacdenaivasha.co.ke). It is a GPL-licensed fork of the WordPress.org
+Twenty Twenty-Five theme, rebranded with the villa's own color palette and
+typography and extended with its own set of patterns (hero, the escape,
+rooms, gallery, amenities, reviews, location, booking) that recreate the
+villa's static marketing site as editable Site Editor content. It pairs
+with the villacde-core plugin for the site's custom interactive blocks
+(hero video, amenity tabs, reviews carousel, stat counter, booking form).
 
+== Installation ==
+
+1. Upload the theme to the `/wp-content/themes/` directory, or install it
+   through the WordPress "Themes" screen.
+2. Activate the theme through the "Appearance" screen.
+3. Install and activate the villacde-core plugin for the site's custom
+   blocks.
 
 == Changelog ==
 
-= 1.5 =
-* Released: May 20, 2026
-
-https://wordpress.org/documentation/article/twenty-twenty-five-changelog/#Version_1.5
-
-= 1.4 =
-* Released: December 2, 2025
-
-https://wordpress.org/documentation/article/twenty-twenty-five-changelog/#Version_1.4
-
-= 1.3 =
-* Released: July 15, 2025
-
-https://wordpress.org/documentation/article/twenty-twenty-five-changelog/#Version_1.3
-
-= 1.2 =
-* Released: April 15, 2025
-
-https://wordpress.org/documentation/article/twenty-twenty-five-changelog/#Version_1.2
-
-= 1.1 =
-* Released: February 11, 2025
-
-https://wordpress.org/documentation/article/twenty-twenty-five-changelog/#Version_1.1
-
-= 1.0 =
-* Released: November 13, 2024
-
-https://wordpress.org/documentation/article/twenty-twenty-five-changelog/#Version_1.0
+= 0.1.0 =
+* Initial release of the Villa CDE theme, forked from Twenty Twenty-Five 1.5.
 
 == Copyright ==
 
-Twenty Twenty-Five WordPress Theme, (C) 2024-2026 WordPress.org and contributors.
-Twenty Twenty-Five is distributed under the terms of the GNU GPL.
+Villa CDE WordPress Theme, (C) 2026 Villa CDE and contributors.
+Villa CDE is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -59,13 +47,19 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+This theme is a derivative of:
+
+Twenty Twenty-Five WordPress Theme, (C) 2024-2026 WordPress.org and contributors.
+License: GPLv2 or later. License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 This theme incorporates code from:
 
 Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org
 License: GPLv2 or later. License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
-This theme bundles the following third-party resources:
+This theme bundles the following third-party resources, inherited unchanged
+from Twenty Twenty-Five:
 
 === Fonts ===
 .ttf files downloaded from fonts.google.com have been converted to .woff2 using
@@ -122,6 +116,11 @@ Reference: https://github.com/googlefonts/beiruti
 Source: https://fonts.google.com/specimen/Beiruti
 
 === Images ===
+
+These stock images ship with the inherited Twenty Twenty-Five patterns and
+style variations, which this project has not pruned (see README.md). None
+of them are used in the villacde/* patterns, which use the villa's own
+photography uploaded through the media library instead.
 
 Northern Buttercups.
 Free public domain CC0 image.
