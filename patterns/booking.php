@@ -47,40 +47,9 @@
 				<!-- wp:group {"backgroundColor":"mist","textColor":"night","style":{"border":{"radius":"16px"},"spacing":{"padding":{"top":"clamp(24px, 3.4vw, 40px)","right":"clamp(24px, 3.4vw, 40px)","bottom":"clamp(24px, 3.4vw, 40px)","left":"clamp(24px, 3.4vw, 40px)"}},"shadow":"0 30px 80px color-mix(in srgb, var(--wp--preset--color--night) 35%, transparent)"},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group has-night-color has-mist-background-color has-text-color has-background" style="border-radius:16px;padding-top:clamp(24px, 3.4vw, 40px);padding-right:clamp(24px, 3.4vw, 40px);padding-bottom:clamp(24px, 3.4vw, 40px);padding-left:clamp(24px, 3.4vw, 40px);box-shadow:0 30px 80px color-mix(in srgb, var(--wp--preset--color--night) 35%, transparent)">
 
-					<!-- wp:html -->
-					<form style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:16px">
-						<div style="display:flex;flex-direction:column;gap:6px">
-							<label for="v2ci" style="font-size:13px;font-weight:700;letter-spacing:0.04em">Check-in</label>
-							<input id="v2ci" name="check_in" type="date" required style="height:52px;padding:0 14px;border:1px solid var(--wp--preset--color--fog);border-radius:8px;background:var(--wp--preset--color--mist);color:var(--wp--preset--color--night)">
-						</div>
-						<div style="display:flex;flex-direction:column;gap:6px">
-							<label for="v2co" style="font-size:13px;font-weight:700;letter-spacing:0.04em">Check-out</label>
-							<input id="v2co" name="check_out" type="date" required style="height:52px;padding:0 14px;border:1px solid var(--wp--preset--color--fog);border-radius:8px;background:var(--wp--preset--color--mist);color:var(--wp--preset--color--night)">
-						</div>
-						<div style="display:flex;flex-direction:column;gap:6px">
-							<label for="v2nm" style="font-size:13px;font-weight:700;letter-spacing:0.04em">Full name</label>
-							<input id="v2nm" name="name" type="text" autocomplete="name" required style="height:52px;padding:0 14px;border:1px solid var(--wp--preset--color--fog);border-radius:8px;background:var(--wp--preset--color--mist);color:var(--wp--preset--color--night)">
-						</div>
-						<div style="display:flex;flex-direction:column;gap:6px">
-							<label for="v2em" style="font-size:13px;font-weight:700;letter-spacing:0.04em">Email</label>
-							<input id="v2em" name="email" type="email" autocomplete="email" required style="height:52px;padding:0 14px;border:1px solid var(--wp--preset--color--fog);border-radius:8px;background:var(--wp--preset--color--mist);color:var(--wp--preset--color--night)">
-						</div>
-						<div style="display:flex;flex-direction:column;gap:6px">
-							<label for="v2ph" style="font-size:13px;font-weight:700;letter-spacing:0.04em">Phone / WhatsApp</label>
-							<input id="v2ph" name="phone" type="tel" autocomplete="tel" placeholder="+254" style="height:52px;padding:0 14px;border:1px solid var(--wp--preset--color--fog);border-radius:8px;background:var(--wp--preset--color--mist);color:var(--wp--preset--color--night)">
-						</div>
-						<div style="display:flex;flex-direction:column;gap:6px">
-							<label for="v2gu" style="font-size:13px;font-weight:700;letter-spacing:0.04em">Guests (max 12 pax)</label>
-							<input id="v2gu" name="guests" type="number" min="1" max="12" placeholder="e.g. 10" required style="height:52px;padding:0 14px;border:1px solid var(--wp--preset--color--fog);border-radius:8px;background:var(--wp--preset--color--mist);color:var(--wp--preset--color--night)">
-						</div>
-						<div style="grid-column:1 / -1;display:flex;flex-direction:column;gap:6px">
-							<label for="v2ms" style="font-size:13px;font-weight:700;letter-spacing:0.04em">Occasion or requests</label>
-							<textarea id="v2ms" name="message" rows="3" placeholder="Birthday, arrival time, meals for the chef..." style="padding:12px 14px;border:1px solid var(--wp--preset--color--fog);border-radius:8px;background:var(--wp--preset--color--mist);color:var(--wp--preset--color--night);resize:vertical"></textarea>
-						</div>
-						<div style="grid-column:1 / -1;background:var(--wp--preset--color--mist);border:1px solid var(--wp--preset--color--fog);border-radius:10px;padding:16px 18px;color:var(--wp--preset--color--night-2);font-size:15px">We'll confirm your total when we reply. No payment is taken until then.</div>
-						<button type="submit" style="grid-column:1 / -1;height:56px;background:var(--wp--preset--color--amber);color:var(--wp--preset--color--night);border:0;border-radius:8px;font-weight:700;font-size:17px;cursor:pointer">Request to book</button>
-					</form>
-					<!-- /wp:html -->
+					<!-- wp:villacde-core/booking-form -->
+					<div class="wp-block-villacde-core-booking-form villacde-booking-form"><div class="villacde-booking-form__thanks" hidden role="status" tabindex="-1" data-villacde-booking-thanks="true"><svg aria-hidden="true" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#B8651F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 12.5l2.5 2.5L16 9.5"></path></svg><p class="villacde-booking-form__thanks-title">Request received</p><p class="villacde-booking-form__thanks-text">We've opened WhatsApp with your request — send that message to confirm your dates at Villa CDE.</p><button type="button" class="villacde-booking-form__reset" data-villacde-booking-reset="true">Send another request</button></div><form class="villacde-booking-form__form" data-villacde-booking-form="true" data-villacde-booking-whatsapp="254713234606" data-villacde-booking-rate="65000" data-villacde-booking-currency="KES"><div class="villacde-booking-form__field villacde-booking-form__field--full dr-field" data-villacde-dr-field="true"><span id="dr-label" class="villacde-booking-form__label">Dates</span><button type="button" id="dr-trigger" class="villacde-booking-form__dr-trigger dr-trigger" aria-haspopup="dialog" aria-expanded="false" aria-controls="dr-cal" aria-labelledby="dr-label dr-text" data-villacde-dr-trigger="true"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="16" rx="2.5"></rect><path d="M3 9.5h18"></path><path d="M8 2.5v4"></path><path d="M16 2.5v4"></path></svg><span id="dr-text" class="villacde-booking-form__dr-text dr-text is-placeholder" data-villacde-dr-text="true">Add your dates</span><span id="dr-nights" class="villacde-booking-form__dr-nights dr-nights" data-villacde-dr-nights="true"></span></button><input type="hidden" name="check_in" data-villacde-dr-in="true"/><input type="hidden" name="check_out" data-villacde-dr-out="true"/><div id="dr-cal" class="villacde-booking-form__dr-cal dr-cal" hidden role="dialog" aria-modal="false" aria-label="Choose your dates" data-villacde-dr-cal="true"></div></div><div class="villacde-booking-form__field"><label for="v2nm" class="villacde-booking-form__label">Full name</label><input id="v2nm" name="name" type="text" autocomplete="name" required class="villacde-booking-form__input"/></div><div class="villacde-booking-form__field"><label for="v2em" class="villacde-booking-form__label">Email</label><input id="v2em" name="email" type="email" autocomplete="email" required class="villacde-booking-form__input"/></div><div class="villacde-booking-form__field"><label for="v2ph" class="villacde-booking-form__label">Phone / WhatsApp</label><input id="v2ph" name="phone" type="tel" autocomplete="tel" placeholder="+254" class="villacde-booking-form__input"/></div><div class="villacde-booking-form__field"><label for="v2gu" class="villacde-booking-form__label">Guests (max 12 pax)</label><input id="v2gu" name="guests" type="number" min="1" max="12" placeholder="e.g. 10" required class="villacde-booking-form__input"/></div><div class="villacde-booking-form__field villacde-booking-form__field--full"><label for="v2ms" class="villacde-booking-form__label">Occasion or requests</label><textarea id="v2ms" name="message" rows="3" placeholder="Birthday, arrival time, meals for the chef..." class="villacde-booking-form__textarea"></textarea></div><div class="villacde-booking-form__note">We'll confirm your total when we reply. No payment is taken until then.</div><button type="submit" class="villacde-booking-form__submit">Request to book</button></form></div>
+					<!-- /wp:villacde-core/booking-form -->
 
 				</div>
 				<!-- /wp:group -->
